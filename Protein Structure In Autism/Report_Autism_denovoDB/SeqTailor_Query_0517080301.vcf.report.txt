@@ -1,0 +1,79 @@
+# Protein seqeuence extraction for genomic variants in VCF format
+# GENOME: Human_GRCh37
+# WINDOW_DOWN: ENTIRE PROTEIN bp
+# WINDOW_UP: ENTIRE PROTEIN bp
+# SEQUENCE_TYPE: BOTH
+# ANNOTATION_TYPE: CANONICAL
+# INPUT FILE: SeqTailor_Query_0517080301.vcf
+# REPORT FILE: SeqTailor_Query_0517080301.vcf.report.txt
+
+6	33403326 0	G A
+	> COMMENT: normal
+	> ACTION: normal
+	> SUBMITTED: 6_33403326_G_A
+
+6       33411384 0      C T
+	> COMMENT: normal
+	> ACTION: normal
+	> SUBMITTED: 6_33411384_C_T
+
+14	21868219 0      G A
+	> COMMENT: normal
+	> ACTION: normal
+	> SUBMITTED: 14_21868219_G_A
+
+14	21868219 0	G A
+	> COMMENT: duplicated
+	> ACTION: skipped
+	> SUBMITTED: none
+
+14	21870652 0	C T
+	> COMMENT: normal
+	> ACTION: normal
+	> SUBMITTED: 14_21870652_C_T
+
+14	21870652 0	C T
+	> COMMENT: duplicated
+	> ACTION: skipped
+	> SUBMITTED: none
+
+14	21876489 0	C T
+	> COMMENT: normal
+	> ACTION: normal
+	> SUBMITTED: 14_21876489_C_T
+
+14	21876489 0	C T
+	> COMMENT: duplicated
+	> ACTION: skipped
+	> SUBMITTED: none
+
+14	21876700 0	A G
+	> COMMENT: normal
+	> ACTION: normal
+	> SUBMITTED: 14_21876700_A_G
+
+14	21876700 0	A G
+	> COMMENT: duplicated
+	> ACTION: skipped
+	> SUBMITTED: none
+
+14	21882516 0	G T
+	> COMMENT: normal
+	> ACTION: normal
+	> SUBMITTED: 14_21882516_G_T
+
+14	21882516 0	G T
+	> COMMENT: duplicated
+	> ACTION: skipped
+	> SUBMITTED: none
+
+14	21899168 0	C T
+	> COMMENT: normal
+	> ACTION: normal
+	> SUBMITTED: 14_21899168_C_T
+
+6	33391326 0	G A
+	> COMMENT: normal
+	> ACTION: normal
+	> SUBMITTED: 6_33391326_G_A
+

@@ -1,0 +1,14 @@
+##SnpEffVersion="4.3t (build 2017-11-24 10:18), by Pablo Cingolani"
+##SnpEffCmd="SnpEff  -noStats -no-downstream -no-intergenic -no-intron -no-upstream -no-utr Human_GRCh37_canonical ./query/SeqTailor_Query_0517080301.vcf.snpeff.in.vcf "
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO' ">
+##INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+##INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+6	33403326	.	G	A	.	.	ANN=A|missense_variant|MODERATE|SYNGAP1|ENSG00000197283|transcript|ENST00000418600.2|protein_coding|7/19|c.698G>A|p.Cys233Tyr|799/5916|698/4032|233/1343||
+6	33411384	.	C	T	.	.	ANN=T|missense_variant|MODERATE|SYNGAP1|ENSG00000197283|transcript|ENST00000418600.2|protein_coding|15/19|c.3055C>T|p.Arg1019Cys|3156/5916|3055/4032|1019/1343||
+14	21868219	.	G	A	.	.	ANN=A|missense_variant|MODERATE|CHD8|ENSG00000100888|transcript|ENST00000399982.2|protein_coding|24/37|c.4738C>T|p.Arg1580Trp|4803/8229|4738/7746|1580/2581||
+14	21870652	.	C	T	.	.	ANN=T|missense_variant|MODERATE|CHD8|ENSG00000100888|transcript|ENST00000399982.2|protein_coding|18/37|c.3725G>A|p.Arg1242Gln|3790/8229|3725/7746|1242/2581||
+14	21876489	.	C	T	.	.	ANN=T|missense_variant|MODERATE|CHD8|ENSG00000100888|transcript|ENST00000399982.2|protein_coding|12/37|c.2712G>A|p.Met904Ile|2777/8229|2712/7746|904/2581||
+14	21876700	.	A	G	.	.	ANN=G|missense_variant|MODERATE|CHD8|ENSG00000100888|transcript|ENST00000399982.2|protein_coding|12/37|c.2501T>C|p.Leu834Pro|2566/8229|2501/7746|834/2581||
+14	21882516	.	G	T	.	.	ANN=T|missense_variant|MODERATE|CHD8|ENSG00000100888|transcript|ENST00000399982.2|protein_coding|8/37|c.2086C>A|p.Gln696Lys|2151/8229|2086/7746|696/2581||
+14	21899168	.	C	T	.	.	ANN=T|missense_variant|MODERATE|CHD8|ENSG00000100888|transcript|ENST00000399982.2|protein_coding|1/37|c.635G>A|p.Arg212Gln|700/8229|635/7746|212/2581||
+6	33391326	.	G	A	.	.	ANN=A|missense_variant|MODERATE|SYNGAP1|ENSG00000197283|transcript|ENST00000418600.2|protein_coding|2/19|c.140G>A|p.Arg47Gln|241/5916|140/4032|47/1343||
